@@ -109,7 +109,7 @@
 				</div>
 				<div id="m_right">
 					<div class="m_right_top"><p class="p1">存金预约</p></div>
-			<div class="m_right_bottom">
+			<div class="m_right_bottom" style="z-index: 998;">
 				<div class="m_wz"><p class="p2">1、选择门店</p></div>
 				<div class="m_zt">
 					<div class="m_z">
@@ -156,7 +156,7 @@
 						<input type="text" value="441556198709062110" />
 						<br />
 						<input type="text" value="13686323216"/>
-						<button class="btn">下一步</button>
+						<button class="btn btn2">下一步</button>
 					</div>
 				</div>
 			</div>
@@ -186,7 +186,7 @@
 							<option><p>2012-10-10</p></option>
 							<option><p>2012-10-10</p></option>
 						</select>
-						<button class="btn">下一步</button>
+						<button class="btn btn3">下一步</button>
 					</div>
 				</div>
 			</div>
@@ -251,3 +251,34 @@
 	</body>
 
 </html>
+<script type="text/javascript">
+	var obox = document.getElementsByClassName('m_right_bottom')[0];
+	var obox2 = document.getElementsByClassName('m_right_bottom2')[0];
+	var obox3 = document.getElementsByClassName('m_right_bottom3')[0];
+	var obox4 = document.getElementsByClassName('m_right_bottom4')[0];
+	var obtn = document.getElementsByClassName('btn')[0];
+	var obtn2 = document.getElementsByClassName('btn2')[0];
+	var obtn3 = document.getElementsByClassName('btn3')[0];
+//	var obtn4 = document.getElementsByClassName('btn4')[0];
+	
+	window.onload = function(){
+		obtn.onclick = function(){
+			obox2.style.zIndex = '998';
+			obox.style.zIndex = '1';
+			obox3.style.zIndex = '1';
+			obox4.style.zIndex = '1';
+		}
+		obtn2.onclick = function(){
+			obox3.style.zIndex = '998';
+			obox.style.zIndex = '1';
+			obox2.style.zIndex = '1';
+			obox4.style.zIndex = '1';
+		}
+		obtn3.onclick = function(){
+			obox4.style.zIndex = '998';
+			obox.style.zIndex = '1';
+			obox2.style.zIndex = '1';
+			obox3.style.zIndex = '1';
+		}
+	}
+</script>
