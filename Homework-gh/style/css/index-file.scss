@@ -1,0 +1,218 @@
+@charset "utf-8";
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-family: "微软雅黑"; //  font-size: .16rem;
+    box-sizing: border-box;
+}
+body,
+html {
+    width: 100%;
+    height: 100%;
+}
+body {
+    background: #f9f9f9;
+}
+.header-box {
+    width: 100%;
+    height: 40px;
+    background: #F5F5F5;
+    position: fixed;
+    top: 0;
+    z-index: 10;
+    .box-nei {
+        width: 1200px;
+        height: 40px; //      border: 1px solid red;s
+        line-height: 40px;
+        background: #F5F5F5;
+        margin: 0 auto;
+        text-align: center;
+        font-size: 12px; //     div{
+        //         float: left;
+        //     }
+        .box-zuo {
+            float: left;
+            span {
+                font-size: 14px;
+            }
+        }
+        .box-you {
+            float: right;
+            ul {
+                li {
+                    float: left;
+                    margin-left: 20px;
+                    a {
+                        color: #666666;
+                        text-decoration: none;
+                        a:nth-child(1) {
+                            color: black;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+.header-nav {
+    width: 100%; //  height: 110px; //      line-height: 110px;
+    margin-top: 40px;
+    background: white;
+    padding: 10px 0;
+    .nav-nei {
+        width: 1200px;
+        height: 100%; //         border: 1px solid red;
+        margin: 0 auto; //         text-align: center;
+        .nav-left {
+            float: left; //          width: 180px;
+            //          height: 80px; //             background-color:red;
+            //          img {
+            //              width: 100%;
+            //              height: 100%;
+            //          }
+        }
+        .nav-right {
+            float: right; //          width: 500px;
+            //          height: 80px;
+            align-content: center;
+            ul {
+                //              width: 500px;
+                //              height: 80px;
+                text-align: center;
+                padding: 20px 0;
+                li {
+                    float: left; //                  width: 100px;
+                    //                  height: 80px;
+                    //                  line-height: 80px; //             background: red;
+                    width: 70px;
+                    height: 40px;
+                    line-height: 40px;
+                    margin-left: 21px;
+                    a {
+                        color: #363636;
+                        text-decoration: none;
+                    }
+                }
+                li:hover {
+                    border-bottom: 3px solid #4683FD;
+                }
+            }
+        }
+    }
+}
+.clear {
+    clear: both;
+}
+.footer-gh {
+    width: 100%;
+    height: 330px;
+    background: #363636;
+    margin-top: 225px;
+    .footer-botton-nei {
+        padding: 20px 10px;
+        width: 1200px;
+        height: 100%;
+        margin: 0 auto; //      border: 1px solid red;
+        .nei-box {
+            width: 900px; //          height: 60%;
+            //          border: 1px solid red;
+            margin: 0 auto;
+            .botton-top {
+                div:nth-child(1) {
+                    float: left;
+                    width: 300px; //         height: 100%;
+                    border-right: 1px solid #ACACAC;
+                    ul {
+                        margin-left: 100px;
+                        width: 100%;
+                        height: 100%;
+                        li {
+                            color: white;
+                            line-height: 40px;
+                            font-size: 15px;
+                        }
+                    }
+                }
+                div:nth-child(2) {
+                    float: left;
+                    width: 300px; //         height: 100%;
+                    //                  border-right: 1px solid wheat;
+                    img {
+                        margin-left: 30px;
+                    }
+                }
+                div:nth-child(3) {
+                    float: left;
+                    width: 298px; //         height: 100%;
+                    p {
+                        color: white;
+                        padding: 10px 30px;
+                    }
+                }
+            }
+            .footer-botton {
+                .gh-xia {
+                    color: #999999;
+                    font-size: 12px;
+                    .p1 {
+                        float: left;
+                        position: absolute;
+                        img {
+                            position: relative;
+                            left: 20px;
+                            top: 44px;
+                        }
+                        span {
+                            position: relative;
+                            left: 20px;
+                            top: 35px;
+                        }
+                    }
+                    .p2 {
+                        float: left;
+                        position: absolute;
+                        img {
+                            position: relative;
+                            left: 182px;
+                            top: 39px;
+                        }
+                        span {
+                            position: relative;
+                            left: 180px;
+                            top: 28px;
+                        }
+                    }
+                    .p3 {
+                        float: left;
+                        position: absolute;
+                        span {
+                            position: relative;
+                            left: 350px;
+                            top: 50px;
+                        }
+                    }
+                    .p4 {
+                        float: left;
+                        position: absolute;
+                        img {
+                            position: relative;
+                            left: 660px;
+                            top: 40px;
+                        }
+                    }
+                }
+                .gh-di {
+                    position: absolute;
+                    color: #999999;
+                    font-size: 12px;
+                    p {
+                        position: relative;
+                        left: 200px;
+                        top: 100px;
+                    }
+                }
+            }
+        }
+    }
+}
