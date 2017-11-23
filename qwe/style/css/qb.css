@@ -169,10 +169,7 @@ body {
         line-height: 44px;
         margin-left: 26px;
         z-index: 999; }
-    #m_div2 #m_right .m_right_bottom,
-    #m_div2 #m_right .m_right_bottom2,
-    #m_div2 #m_right .m_right_bottom3,
-    #m_div2 #m_right .m_right_bottom4 {
+    #m_div2 #m_right .m_right_bottom, #m_div2 #m_right .m_right_bottom2, #m_div2 #m_right .m_right_bottom3, #m_div2 #m_right .m_right_bottom4 {
       width: 920px;
       height: 661px;
       border: 1px solid #dddddd;
@@ -180,36 +177,24 @@ body {
       position: absolute;
       left: 0;
       top: 44px; }
-      #m_div2 #m_right .m_right_bottom .m_wz,
-      #m_div2 #m_right .m_right_bottom2 .m_wz,
-      #m_div2 #m_right .m_right_bottom3 .m_wz,
-      #m_div2 #m_right .m_right_bottom4 .m_wz {
+      #m_div2 #m_right .m_right_bottom .m_wz, #m_div2 #m_right .m_right_bottom2 .m_wz, #m_div2 #m_right .m_right_bottom3 .m_wz, #m_div2 #m_right .m_right_bottom4 .m_wz {
         width: 200px;
         height: 30px;
         margin: 46px auto;
         overflow: hidden; }
-        #m_div2 #m_right .m_right_bottom .m_wz .p2,
-        #m_div2 #m_right .m_right_bottom2 .m_wz .p2,
-        #m_div2 #m_right .m_right_bottom3 .m_wz .p2,
-        #m_div2 #m_right .m_right_bottom4 .m_wz .p2 {
+        #m_div2 #m_right .m_right_bottom .m_wz .p2, #m_div2 #m_right .m_right_bottom2 .m_wz .p2, #m_div2 #m_right .m_right_bottom3 .m_wz .p2, #m_div2 #m_right .m_right_bottom4 .m_wz .p2 {
           font-family: "微软雅黑";
           font-size: 16px;
           color: #484848;
           line-height: 44px;
           margin-left: 26px; }
-      #m_div2 #m_right .m_right_bottom .m_z,
-      #m_div2 #m_right .m_right_bottom2 .m_z,
-      #m_div2 #m_right .m_right_bottom3 .m_z,
-      #m_div2 #m_right .m_right_bottom4 .m_z {
+      #m_div2 #m_right .m_right_bottom .m_z, #m_div2 #m_right .m_right_bottom2 .m_z, #m_div2 #m_right .m_right_bottom3 .m_z, #m_div2 #m_right .m_right_bottom4 .m_z {
         width: 97px;
         height: 175px;
         margin: 0 auto;
         float: left;
         margin-left: 170px; }
-        #m_div2 #m_right .m_right_bottom .m_z p,
-        #m_div2 #m_right .m_right_bottom2 .m_z p,
-        #m_div2 #m_right .m_right_bottom3 .m_z p,
-        #m_div2 #m_right .m_right_bottom4 .m_z p {
+        #m_div2 #m_right .m_right_bottom .m_z p, #m_div2 #m_right .m_right_bottom2 .m_z p, #m_div2 #m_right .m_right_bottom3 .m_z p, #m_div2 #m_right .m_right_bottom4 .m_z p {
           display: block;
           float: right;
           margin-bottom: 40px;
@@ -217,33 +202,21 @@ body {
           font-family: "微软雅黑";
           font-size: 16px;
           color: #484848; }
-      #m_div2 #m_right .m_right_bottom .m_y,
-      #m_div2 #m_right .m_right_bottom2 .m_y,
-      #m_div2 #m_right .m_right_bottom3 .m_y,
-      #m_div2 #m_right .m_right_bottom4 .m_y {
+      #m_div2 #m_right .m_right_bottom .m_y, #m_div2 #m_right .m_right_bottom2 .m_y, #m_div2 #m_right .m_right_bottom3 .m_y, #m_div2 #m_right .m_right_bottom4 .m_y {
         width: 350px;
         height: 150px;
         margin: 0 auto; }
-        #m_div2 #m_right .m_right_bottom .m_y select,
-        #m_div2 #m_right .m_right_bottom2 .m_y select,
-        #m_div2 #m_right .m_right_bottom3 .m_y select,
-        #m_div2 #m_right .m_right_bottom4 .m_y select {
+        #m_div2 #m_right .m_right_bottom .m_y select, #m_div2 #m_right .m_right_bottom2 .m_y select, #m_div2 #m_right .m_right_bottom3 .m_y select, #m_div2 #m_right .m_right_bottom4 .m_y select {
           width: 330px;
           height: 42px;
           border: none;
           border: 1px solid #dddddd;
           margin-bottom: 26px; }
-        #m_div2 #m_right .m_right_bottom .m_y p,
-        #m_div2 #m_right .m_right_bottom2 .m_y p,
-        #m_div2 #m_right .m_right_bottom3 .m_y p,
-        #m_div2 #m_right .m_right_bottom4 .m_y p {
+        #m_div2 #m_right .m_right_bottom .m_y p, #m_div2 #m_right .m_right_bottom2 .m_y p, #m_div2 #m_right .m_right_bottom3 .m_y p, #m_div2 #m_right .m_right_bottom4 .m_y p {
           font-family: "微软雅黑";
           font-size: 16px;
           color: #484848; }
-        #m_div2 #m_right .m_right_bottom .m_y .btn,
-        #m_div2 #m_right .m_right_bottom2 .m_y .btn,
-        #m_div2 #m_right .m_right_bottom3 .m_y .btn,
-        #m_div2 #m_right .m_right_bottom4 .m_y .btn {
+        #m_div2 #m_right .m_right_bottom .m_y .btn, #m_div2 #m_right .m_right_bottom2 .m_y .btn, #m_div2 #m_right .m_right_bottom3 .m_y .btn, #m_div2 #m_right .m_right_bottom4 .m_y .btn {
           width: 330px;
           height: 42px;
           border: none;
@@ -294,41 +267,43 @@ body {
         font-size: 18px;
         font-family: "微软雅黑";
         margin-top: 70px; }
-    #m_div2 #m_right .m_right_bottom4 .m_right_img {
-      width: 88px;
-      height: 88px;
-      margin: 0 auto;
-      margin-top: 126px; }
-    #m_div2 #m_right .m_right_bottom4 .m_right_wz {
-      width: 107px;
-      height: 40px;
-      overflow: hidden;
-      margin: 0 auto;
-      margin-top: 33px; }
-      #m_div2 #m_right .m_right_bottom4 .m_right_wz p {
-        font-size: 26px;
-        color: #dc0000; }
-    #m_div2 #m_right .m_right_bottom4 .m_right_wz2 {
-      width: 256px;
-      height: 25px;
-      overflow: hidden;
-      margin: 0 auto;
-      margin-top: 35px; }
-      #m_div2 #m_right .m_right_bottom4 .m_right_wz2 p {
-        font-size: 16px;
-        color: #333333; }
-    #m_div2 #m_right .m_right_bottom4 .m_right_btn {
-      width: 256px;
-      height: 50px;
-      margin: 0 auto;
-      margin-top: 68px; }
-      #m_div2 #m_right .m_right_bottom4 .m_right_btn button {
+    #m_div2 #m_right .m_right_bottom4 {
+      z-index: 999; }
+      #m_div2 #m_right .m_right_bottom4 .m_right_img {
+        width: 88px;
+        height: 88px;
+        margin: 0 auto;
+        margin-top: 126px; }
+      #m_div2 #m_right .m_right_bottom4 .m_right_wz {
+        width: 107px;
+        height: 40px;
+        overflow: hidden;
+        margin: 0 auto;
+        margin-top: 33px; }
+        #m_div2 #m_right .m_right_bottom4 .m_right_wz p {
+          font-size: 26px;
+          color: #dc0000; }
+      #m_div2 #m_right .m_right_bottom4 .m_right_wz2 {
+        width: 256px;
+        height: 25px;
+        overflow: hidden;
+        margin: 0 auto;
+        margin-top: 35px; }
+        #m_div2 #m_right .m_right_bottom4 .m_right_wz2 p {
+          font-size: 16px;
+          color: #333333; }
+      #m_div2 #m_right .m_right_bottom4 .m_right_btn {
         width: 256px;
         height: 50px;
-        border: none;
-        border-radius: 3px;
-        background: #4683fd;
-        color: #FFFFFF;
-        font-size: 18px; }
+        margin: 0 auto;
+        margin-top: 68px; }
+        #m_div2 #m_right .m_right_bottom4 .m_right_btn button {
+          width: 256px;
+          height: 50px;
+          border: none;
+          border-radius: 3px;
+          background: #4683fd;
+          color: #FFFFFF;
+          font-size: 18px; }
 
 /*# sourceMappingURL=qb.css.map */
