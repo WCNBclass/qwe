@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8" />
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="style/css/index-file.css" />
+		<link rel="stylesheet" type="text/css" href="style/css/swiper.min.css" />
+		<link rel="stylesheet" type="text/css" href="style/css/index1.css" />
+	</head>
+
+	<body>
+		<!--头部-->
+		<header>
+			<div class="header-box">
+				<div class="box-nei">
+					<div class="box-zuo">
+						<p>客服热线：<span>400-700-4800 </span></p>
+					</div>
+					<div class="box-you">
+						<ul>
+							<li>
+								<a href="">你好，欢迎来到粤宝淘金</a>
+							</li>
+							<li>
+								<a href="">登陆</a>
+							</li>
+							<li>|</li>
+							<li>
+								<a href="">注册</a>
+							</li>
+							<li class="clear"></li>
+
+						</ul>
+					</div>
+					<div class="clear"></div>
+				</div>
+			</div>
+			<div class="header-nav">
+				<div class="nav-nei">
+					<div class="nav-left">
+						<img src="images/gh-8.png" />
+					</div>
+					<div class="nav-right">
+						<ul>
+							<li>
+								<a href="">首页</a>
+							</li>
+							<li>
+								<a href="">黄金钱包</a>
+							</li>
+							<li>
+								<a href="">实时金价</a>
+							</li>
+							<li>
+								<a href="">淘金商城</a>
+							</li>
+							<li>
+								<a href="">联系我们</a>
+							</li>
+							<li class="clear" style="border: none;"></li>
+
+						</ul>
+					</div>
+					<div class="clear"></div>
+				</div>
+			</div>
+		</header>
+		
+		<div class="nav-box">
+			<div class="nav-top"></div>
+			<div class="nav-nav">
+				<div class="nav-a">
+					<span class="nav-s"></span>
+					<span class="nav-y">1</span>
+					<span class="nav-s1"></span>
+				</div>
+				<div class="nav-yz"><b>验证身份</b></div>
+			</div>
+			<div class="nav-nav-">
+				<div class="nav-a">
+					<span class="nav-s-"></span>
+					<span class="nav-y-">2</span>
+					<span class="nav-s1-"></span>
+				</div>
+				<div class="nav-yz-"><b>设置密码</b></div>
+			</div>
+			<div class="nav-nav-">
+				<div class="nav-a">
+					<span class="nav-s-"></span>
+					<span class="nav-y-">3</span>
+					<span class="nav-s1-"></span>
+				</div>
+				<div class="nav-yz-"><b>完成</b></div>
+			</div>
+
+			<div class="nav-right-">
+				<input type="text" placeholder="请输入你的手机号码" class="nav-input" />
+				<!--获取图形验证码-->
+				<div class="nav-h">
+					<input type="text" placeholder="请输入图形验证码" class="nav-i" />
+					<img src="images/zhuce_01.png" id="img" />
+					<span class="nav-z"><a>换一张</a></span>
+				</div>
+				<!--获取图形验证码-->
+				<input type="text" placeholder="请输入短信验证码" class="nav-i" />
+				<input type="button" value="获取短信验证码" class="nav-hq" onclick="settime(this)" />
+
+				<input type="button" value="下一步" class="nav-d" />
+			</div>
+		</div>
+		</div>
+		
+		<footer>
+			<!--分上下两部分-->
+			<div class="footer-gh">
+				<div class="footer-botton-nei">
+					<div class="nei-box">
+						<div class="botton-top">
+							<div>
+								<ul>
+									<li>淘金商城</li>
+									<li>意见反馈</li>
+									<li>联系我们</li>
+									<li class="clear"></li>
+								</ul>
+							</div>
+							<div>
+								<div><img src="images/gh-3.png" /><img src="images/gh-4.png" /></div>
+							</div>
+							<div>
+								<p>400-400-5142</p>
+								<p>(周一~周五 9：00-18:00)</p>
+								<p>客服邮箱：124549231@qq.com</p>
+							</div>
+							<div class="clear">
+
+							</div>
+						</div>
+						<div class="footer-botton">
+							<div class="gh-xia">
+								<p class="p1"><img src="images/gh-1.png" /><span>经营性网站备案信息</span></p>
+								<p class="p2"><img src="images/gh-2.png" /><span>朝阳网络警察提醒您</span></p>
+								<p class="p3"><span>暴恐音视频举报专家互联网违法和不良信息举报中心</span></p>
+								<p class="p4"><img src="images/gh-5.png" /><img src="images/gh-6.png" /><img src="images/gh-7.png" /></p>
+								<p class="clear"></p>
+							</div>
+							<div class="gh-di">
+								<p colspan="4" rowspan="1">Copyright @ 2013-2016 多边金宝www.dbjb.com 版权所有 京ICP13006376号-4</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</footer>
+	</body>
+
+</html>
+<script type="text/javascript">
+	var a = document.getElementsByClassName('nav-hq');
+
+	var countdown = 60;
+
+	clearTimeout(timer);
+	function settime(val) {
+		if(countdown == 0) {
+			val.removeAttribute("disabled");
+			val.value = "免费获取验证码";
+			countdown = 60;
+		} else {
+			val.setAttribute("disabled", true);
+			val.value = "重新发送(" + countdown + ")";
+			countdown--;
+			timer = setTimeout(function() {
+				settime(val)
+			}, 1000)
+		}
+	}
+</script>
