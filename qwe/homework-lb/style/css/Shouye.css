@@ -1,0 +1,247 @@
+*{
+	padding: 0;
+	margin: 0;
+	list-style: none;
+	text-decoration: none;
+}
+html,body{
+	width: 100%;
+	height: 100%;
+	background:#f9f9f9;
+}
+#middle-libin{
+	width: 1200px;
+	height:870px;
+	margin: 0 auto;
+	margin-top: 28px;
+	border:border:1px solid #dddddd;
+}
+#middle-libin #m_div1{
+	float: left;
+	width:820px;
+	height: 722px;
+	background: white;
+	overflow: hidden;
+	border:1px solid #dddddd;
+}
+#middle-libin #m_div1 .m_div_jp{
+	width:820px;
+	height: 53px;
+	line-height: 53px;
+	background:#F9F9F9;
+	border-top: 1px solid #dddddd;
+	margin:0 auto;
+}
+#middle-libin #m_div1 .m_div_jp .m_div_jp_txt1{
+	float: left;
+	font-size: 18px;
+    font-family: "Microsoft YaHei";
+    color: rgb( 70, 131, 253 );
+    margin-left: 17px;
+}
+#middle-libin #m_div1 .m_div_jp .m_div_jp_txt2{
+	float: right;
+	font-size: 14px;
+    font-family: "Microsoft YaHei";
+    color: rgb( 101, 101, 101 );
+    margin-right:28px;
+}
+#middle-libin #m_div1 .m_div_jp_ul{
+	width: 820px;
+	height: 183px;
+}
+#middle-libin #m_div1 .m_div_jp_ul ul{
+	width: 764px;
+	height:183px;
+	line-height: 60px;
+	margin: 0 auto;
+}
+#middle-libin #m_div1 .m_div_jp_ul ul li{
+	width: 764px;
+	height: 60px;
+	font-size: 16px;
+    font-family: "Microsoft YaHei";
+    color: rgb( 72, 72, 72 );
+	background: white;
+	border-bottom: 1px solid #dddddd;
+}
+.m_div1_ul_t1,.m_div1_ul_t2{
+	display: block;
+}
+.m_div1_ul_t1{
+	float: left;
+}
+.m_div1_ul_t2{
+	float: right;
+}
+#middle-libin #m_div1 .m_div_jp_ul ul li:nth-of-type(6){
+	border-bottom:none;
+}
+
+#m_div2{
+	width: 358px;
+	height:485px;
+	float: right;
+	background: white;
+	border:1px solid #dddddd;
+	margin-top:0px;
+}
+#m_div2 .m_div2_sj{
+	width: 358px;
+	height: 145px;
+	border-top:8px solid #4683fd;
+	border-bottom: 1px solid #dddddd;
+}
+#m_div2 .m_div2_sj p:nth-of-type(1){
+	display: block;
+	width: 135px;
+	height:28px;
+	font-size: 19px;
+	text-align: center;
+	overflow: hidden;
+	margin: 0 auto;
+	margin-top:35px;
+}
+#m_div2 .m_div2_sj p:nth-of-type(2){
+	display: block;
+	width: 135px;
+	height:37px;
+	text-align: center;
+	font-size: 35px;
+	color: red;
+	margin: 0 auto;
+	margin-top: 24px;
+}
+#m_div2 .m_div2_gf{
+	width: 358px;
+	height: 59px;
+	margin-bottom:29px;
+}
+#m_div2 .m_div2_gf ul{
+	width: 358px;
+	height: 59px;
+	line-height: 56px;
+	text-align: center;
+}
+#m_div2 .m_div2_gf ul li{
+	float: left;
+	width: 50%;
+	height: 56px;
+}
+#m_div2 .m_div2_gf ul li:hover{
+	cursor: pointer;
+	border-bottom: 3px solid #4683fd;
+}
+#m_div2 .m_div2_txt .m_div2_txt1{
+	width: 332px;
+	font-size: 18px;
+	font-weight: bold;
+    color: rgb( 70, 131, 253 );
+	margin: 0 auto;
+}
+#m_div2 .m_div2_txt .m_div2_txt1:nth-of-type(1){
+	border: 1px solid #dddddd;
+}
+#m_div2 .m_div2_txt .m_div2_txt1:nth-of-type(1),#m_div2 .m_div2_txt .m_div2_txt1:nth-of-type(2){
+	height: 58px;
+	line-height: 58px;
+}
+#m_div2 .m_div2_txt .m_div2_txt1:nth-of-type(1) p{
+	display: block;
+	width: 87px;
+	height:58px;
+	overflow: hidden;
+	margin-left:22px;
+}
+#m_div2 .m_div2_txt .m_div2_txt1:nth-of-type(2) p{
+	display: block;
+	width:115px;
+	height:58px;
+	line-height: 58px;
+	margin-left: 8px;
+}
+#m_div2 .m_div2_txt .m_div2_txt1:nth-of-type(2) p span{
+	color: red;
+}
+#m_div2 .m_div2_opt{
+	width:358px;
+	height: 60px;
+	text-align: center;
+	margin-top: 30px;
+}
+#m_div2 .m_div2_opt .input{
+	width: 332px;
+	height: 60px;
+	line-height: 60px;
+	font-size:25px;
+	color: #ffffff;
+	background:#4683fd;
+	margin: 0 auto;
+}
+#m_div2 .m_div2_opt .input:hover{
+	cursor: pointer;
+}
+
+.m_div_kong{
+	width: 1200px;
+	height: 133px;
+	clear: both;
+}
+#m_div3_ye{
+	width: 798px;
+	height:40px;
+	font-size:14px;
+	margin: 0 auto;
+}
+#m_div3_ye p{
+	display: block;
+	float: left;
+	width: 65px;
+	height: 38px;
+	line-height: 40px;
+	text-align: center;
+	border: 1px solid #dddddd;
+}
+#m_div3_ye ul{
+	width: 371px;
+	height:38px;
+	line-height: 40px;
+	font-size:14px;
+	float: left;
+	text-align: center;
+	margin-left: 13px;
+	margin-right: 13px;
+}
+#m_div3_ye ul li{
+	width: 47px;
+	height: 38px;
+	float: left;;
+	border: 1px solid #dddddd;
+}
+#m_div3_ye ul li:nth-of-type(7){
+	width:26px;
+	height: 40px;
+	border: none;
+}
+#m_div3_ye span{
+	float: left;
+}
+#m_div3_ye span:nth-of-type(1){
+	width: 183px;
+	height: 38px;
+	margin-left: 14px;
+}
+#m_div3_ye span:nth-of-type(2){
+	width:68px;
+	height: 38px;
+	line-height: 40px;
+	text-align: center;
+	background:#e8e8e8;
+	border: 1px solid black;
+}
+#m_div3_ye input{
+	width:36px;
+	height:34px;
+	margin-left: 14px;
+	margin-right: 14px;
+}
