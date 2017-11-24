@@ -1,0 +1,199 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none; }
+
+body {
+  background: #f9f9f9; }
+
+#middle-gll {
+  height: 705px;
+  width: 1200px;
+  margin: 0 auto; }
+
+#m_div2 {
+  height: 705px;
+  width: 1200px;
+  margin-top: 45px;
+  overflow: hidden; }
+  #m_div2 #m_left {
+    height: 705px;
+    width: 255px;
+    float: left;
+    overflow: hidden; }
+    #m_div2 #m_left #m_top {
+      height: 225px;
+      width: 253px;
+      position: relative;
+      overflow: hidden;
+      background: white;
+      border: 1px solid gainsboro; }
+      #m_div2 #m_left #m_top #omg {
+        position: absolute;
+        left: 20px;
+        top: 10px;
+        float: left; }
+      #m_div2 #m_left #m_top #sp1 {
+        position: absolute;
+        left: 130px;
+        top: 15px;
+        font-family: "microsoft yahei"; }
+      #m_div2 #m_left #m_top #amg {
+        position: absolute;
+        left: 155px;
+        top: 63px; }
+      #m_div2 #m_left #m_top #smg {
+        position: absolute;
+        left: 25px;
+        top: 115px; }
+      #m_div2 #m_left #m_top #sp2 {
+        height: 16px;
+        width: 48px;
+        overflow: hidden;
+        position: absolute;
+        top: 115px;
+        left: 45px;
+        font-size: 12px; }
+      #m_div2 #m_left #m_top #p1 {
+        height: 21px;
+        width: 158px;
+        overflow: hidden;
+        position: absolute;
+        top: 155px;
+        left: 20px;
+        font-size: 16px;
+        font-family: "Microsoft YaHei"; }
+        #m_div2 #m_left #m_top #p1 b {
+          color: #DC0000; }
+      #m_div2 #m_left #m_top #p2 {
+        height: 21px;
+        width: 158px;
+        overflow: hidden;
+        position: absolute;
+        top: 185px;
+        left: 20px;
+        font-size: 16px;
+        font-family: "Microsoft YaHei"; }
+        #m_div2 #m_left #m_top #p2 b {
+          color: #DC0000; }
+    #m_div2 #m_left #m_bottom {
+      height: 466px;
+      width: 253px;
+      margin-top: 10px;
+      overflow: hidden;
+      border: 1px solid gainsboro;
+      background: white; }
+      #m_div2 #m_left #m_bottom ul {
+        height: 460px;
+        width: 225px;
+        margin: 0 auto;
+        overflow: hidden; }
+        #m_div2 #m_left #m_bottom ul li {
+          height: 58px;
+          width: 225px;
+          overflow: hidden;
+          border-bottom: 1px dashed gainsboro; }
+          #m_div2 #m_left #m_bottom ul li img {
+            margin-top: 20px;
+            margin-left: 10px;
+            float: left; }
+          #m_div2 #m_left #m_bottom ul li span {
+            height: 21px;
+            width: 64px;
+            overflow: hidden;
+            line-height: 58px;
+            font-size: 16px;
+            margin-left: 20px; }
+  #m_div2 #op {
+    float: left;
+    margin-top: 5px;
+    margin-left: 25px;
+    font-size: 20px;
+    font-family: "Microsoft YaHei";
+    color: #484848; }
+  #m_div2 #m_right {
+    height: 652px;
+    width: 922px;
+    margin-left: 275px;
+    overflow: hidden;
+    background: white;
+    border: 1px solid gainsboro;
+    margin-top: 50px;
+    position: relative; }
+    #m_div2 #m_right .m_qb {
+      height: 45px;
+      width: 920px;
+      border-bottom: 1px solid gainsboro;
+      background: white;
+      overflow: hidden; }
+      #m_div2 #m_right .m_qb li {
+        height: 45px;
+        width: 160px;
+        float: left;
+        font-size: 16px;
+        font-family: "Microsoft YaHei";
+        text-align: center;
+        line-height: 45px; }
+        #m_div2 #m_right .m_qb li a {
+          text-decoration: none;
+          color: black; }
+      #m_div2 #m_right .m_qb li:hover {
+        border-top: 2px solid #4683fd;
+        color: #4683FD; }
+    #m_div2 #m_right #m_bg {
+      height: 605px;
+      width: 920px;
+      position: relative; }
+      #m_div2 #m_right #m_bg .m_zs {
+        height: 150px;
+        width: 360px;
+        border: 1px solid gainsboro;
+        position: absolute;
+        left: 70px;
+        top: 40px; }
+        #m_div2 #m_right #m_bg .m_zs span {
+          height: 21px;
+          width: 64px;
+          overflow: hidden;
+          position: absolute;
+          left: 155px;
+          top: 20px;
+          font-size: 16px;
+          font-family: "Microsoft YaHei";
+          color: #484848; }
+        #m_div2 #m_right #m_bg .m_zs img {
+          width: 80px;
+          height: 27px;
+          position: absolute;
+          left: 145px;
+          top: 70px; }
+        #m_div2 #m_right #m_bg .m_zs p {
+          height: 21px;
+          width: 70px;
+          overflow: hidden;
+          position: absolute;
+          right: 20px;
+          bottom: 15px;
+          font-size: 16px;
+          font-family: "Microsoft YaHei";
+          color: #666666; }
+      #m_div2 #m_right #m_bg .m_zs_k {
+        height: 150px;
+        width: 360px;
+        border: 1px solid gainsboro;
+        position: absolute;
+        left: 470px;
+        top: 40px; }
+        #m_div2 #m_right #m_bg .m_zs_k img {
+          position: absolute;
+          left: 153px;
+          top: 30px; }
+        #m_div2 #m_right #m_bg .m_zs_k p {
+          position: absolute;
+          left: 130px;
+          top: 105px;
+          font-size: 16px;
+          font-family: "Microsoft YaHei";
+          color: #666666; }
+
+/*# sourceMappingURL=myyhk.css.map */

@@ -1,0 +1,299 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none; }
+
+body {
+  background: #f9f9f9; }
+
+#middle-gll {
+  height: 955px;
+  width: 1200px;
+  margin: 0 auto; }
+
+#m_div2 {
+  height: 922px;
+  width: 1200px;
+  margin-top: 45px;
+  overflow: hidden; }
+  #m_div2 #m_left {
+    height: 705px;
+    width: 255px;
+    float: left;
+    overflow: hidden; }
+    #m_div2 #m_left #m_top {
+      height: 225px;
+      width: 253px;
+      position: relative;
+      overflow: hidden;
+      background: white;
+      border: 1px solid gainsboro; }
+      #m_div2 #m_left #m_top #omg {
+        position: absolute;
+        left: 20px;
+        top: 10px;
+        float: left; }
+      #m_div2 #m_left #m_top #sp1 {
+        position: absolute;
+        left: 130px;
+        top: 15px;
+        font-family: "microsoft yahei"; }
+      #m_div2 #m_left #m_top #amg {
+        position: absolute;
+        left: 155px;
+        top: 63px; }
+      #m_div2 #m_left #m_top #smg {
+        position: absolute;
+        left: 25px;
+        top: 115px; }
+      #m_div2 #m_left #m_top #sp2 {
+        height: 16px;
+        width: 48px;
+        overflow: hidden;
+        position: absolute;
+        top: 115px;
+        left: 45px;
+        font-size: 12px; }
+      #m_div2 #m_left #m_top #p1 {
+        height: 21px;
+        width: 158px;
+        overflow: hidden;
+        position: absolute;
+        top: 155px;
+        left: 20px;
+        font-size: 16px;
+        font-family: "Microsoft YaHei"; }
+        #m_div2 #m_left #m_top #p1 b {
+          color: #DC0000; }
+      #m_div2 #m_left #m_top #p2 {
+        height: 21px;
+        width: 158px;
+        overflow: hidden;
+        position: absolute;
+        top: 185px;
+        left: 20px;
+        font-size: 16px;
+        font-family: "Microsoft YaHei"; }
+        #m_div2 #m_left #m_top #p2 b {
+          color: #DC0000; }
+    #m_div2 #m_left #m_bottom {
+      height: 466px;
+      width: 253px;
+      margin-top: 10px;
+      overflow: hidden;
+      border: 1px solid gainsboro;
+      background: white; }
+      #m_div2 #m_left #m_bottom ul {
+        height: 460px;
+        width: 225px;
+        margin: 0 auto;
+        overflow: hidden; }
+        #m_div2 #m_left #m_bottom ul li {
+          height: 58px;
+          width: 225px;
+          overflow: hidden;
+          border-bottom: 1px dashed gainsboro; }
+          #m_div2 #m_left #m_bottom ul li img {
+            margin-top: 20px;
+            margin-left: 10px;
+            float: left; }
+          #m_div2 #m_left #m_bottom ul li span {
+            height: 21px;
+            width: 64px;
+            overflow: hidden;
+            line-height: 58px;
+            font-size: 16px;
+            margin-left: 20px; }
+  #m_div2 #op {
+    float: left;
+    margin-top: 5px;
+    margin-left: 25px;
+    font-size: 20px;
+    font-family: "Microsoft YaHei";
+    color: #484848; }
+  #m_div2 #m_right {
+    height: 870px;
+    width: 922px;
+    margin-left: 275px;
+    overflow: hidden;
+    background: white;
+    border: 1px solid gainsboro;
+    margin-top: 50px;
+    position: relative; }
+    #m_div2 #m_right .m_qb {
+      height: 45px;
+      width: 920px;
+      border-bottom: 1px solid gainsboro;
+      background: white;
+      overflow: hidden; }
+      #m_div2 #m_right .m_qb li {
+        height: 45px;
+        width: 160px;
+        float: left;
+        font-size: 16px;
+        font-family: "Microsoft YaHei";
+        text-align: center;
+        line-height: 45px; }
+        #m_div2 #m_right .m_qb li a {
+          text-decoration: none;
+          color: black; }
+      #m_div2 #m_right .m_qb li:hover {
+        border-top: 2px solid #4683fd;
+        color: #4683FD; }
+    #m_div2 #m_right #m_tj {
+      height: 290px;
+      width: 920px;
+      border-bottom: 1px solid gainsboro; }
+      #m_div2 #m_right #m_tj span {
+        float: left;
+        margin-top: 30px;
+        margin-left: 25px;
+        font-size: 18px;
+        font-family: "Microsoft YaHei";
+        color: #484848; }
+      #m_div2 #m_right #m_tj p {
+        float: left;
+        margin-left: 25px;
+        margin-top: 10px;
+        font-size: 14px; }
+      #m_div2 #m_right #m_tj #m_xzyh {
+        font-size: 14px;
+        float: left;
+        margin-left: 25px; }
+      #m_div2 #m_right #m_tj .m_gs {
+        height: 120px;
+        width: 685px;
+        position: absolute;
+        left: 150px;
+        top: 160px; }
+        #m_div2 #m_right #m_tj .m_gs ul {
+          height: 33px;
+          width: 685px; }
+          #m_div2 #m_right #m_tj .m_gs ul li {
+            height: 33px;
+            width: 145px;
+            float: left; }
+            #m_div2 #m_right #m_tj .m_gs ul li img {
+              margin-left: 10px; }
+            #m_div2 #m_right #m_tj .m_gs ul li input {
+              float: left;
+              margin-top: 7px; }
+          #m_div2 #m_right #m_tj .m_gs ul .m_oli {
+            margin-left: 25px; }
+        #m_div2 #m_right #m_tj .m_gs .m_oul {
+          margin-top: 10px; }
+    #m_div2 #m_right #m_bd {
+      height: 575px;
+      width: 920px;
+      position: relative; }
+      #m_div2 #m_right #m_bd .m_kh {
+        height: 42px;
+        width: 620px;
+        position: absolute;
+        left: 28px;
+        top: 37px; }
+        #m_div2 #m_right #m_bd .m_kh span {
+          font-size: 16px;
+          font-family: "Microsoft YaHei";
+          color: #484848; }
+        #m_div2 #m_right #m_bd .m_kh input {
+          height: 40px;
+          width: 320px;
+          margin-left: 10px;
+          padding-left: 10px; }
+        #m_div2 #m_right #m_bd .m_kh .tx {
+          margin-left: 10px; }
+      #m_div2 #m_right #m_bd .m_ckr {
+        height: 42px;
+        width: 620px;
+        position: absolute;
+        left: 28px;
+        top: 107px; }
+        #m_div2 #m_right #m_bd .m_ckr span {
+          font-size: 16px;
+          font-family: "Microsoft YaHei";
+          color: #484848;
+          line-height: 42px; }
+        #m_div2 #m_right #m_bd .m_ckr input {
+          height: 40px;
+          width: 320px;
+          margin-left: 10px;
+          padding-left: 10px; }
+      #m_div2 #m_right #m_bd .m_sfz {
+        height: 42px;
+        width: 620px;
+        position: absolute;
+        left: 28px;
+        top: 177px; }
+        #m_div2 #m_right #m_bd .m_sfz span {
+          font-size: 16px;
+          font-family: "Microsoft YaHei";
+          color: #484848; }
+        #m_div2 #m_right #m_bd .m_sfz input {
+          height: 40px;
+          width: 320px;
+          margin-left: 10px;
+          padding-left: 10px; }
+        #m_div2 #m_right #m_bd .m_sfz .tx {
+          margin-left: 10px; }
+      #m_div2 #m_right #m_bd .m_sj {
+        height: 42px;
+        width: 620px;
+        position: absolute;
+        left: 28px;
+        top: 247px; }
+        #m_div2 #m_right #m_bd .m_sj span {
+          font-size: 16px;
+          font-family: "Microsoft YaHei";
+          color: #484848; }
+        #m_div2 #m_right #m_bd .m_sj input {
+          height: 40px;
+          width: 175px;
+          margin-left: 15px;
+          padding-left: 10px; }
+        #m_div2 #m_right #m_bd .m_sj button {
+          height: 40px;
+          width: 125px;
+          margin-left: 10px; }
+        #m_div2 #m_right #m_bd .m_sj .tx {
+          margin-left: 10px; }
+      #m_div2 #m_right #m_bd .m_yzm {
+        height: 42px;
+        width: 620px;
+        position: absolute;
+        left: 28px;
+        top: 317px; }
+        #m_div2 #m_right #m_bd .m_yzm span {
+          font-size: 16px;
+          font-family: "Microsoft YaHei";
+          color: #484848; }
+        #m_div2 #m_right #m_bd .m_yzm input {
+          height: 40px;
+          width: 320px;
+          margin-left: 10px;
+          padding-left: 10px; }
+      #m_div2 #m_right #m_bd #m_blue {
+        height: 40px;
+        width: 330px;
+        overflow: hidden;
+        background: #4683fd;
+        position: absolute;
+        left: 125px;
+        top: 400px;
+        border: none;
+        font-size: 18px;
+        font-family: "Microsoft YaHei";
+        color: white; }
+      #m_div2 #m_right #m_bd .m_ty {
+        height: 20px;
+        width: 250px;
+        overflow: hidden;
+        position: absolute;
+        left: 125px;
+        top: 450px; }
+        #m_div2 #m_right #m_bd .m_ty span {
+          font-size: 14px;
+          font-family: "Microsoft YaHei";
+          color: #666666; }
+
+/*# sourceMappingURL=yhk.css.map */

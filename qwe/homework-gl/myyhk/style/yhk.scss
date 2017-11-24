@@ -1,0 +1,358 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+body {
+    background: #f9f9f9;
+}
+#middle-gll {
+    height: 955px;
+    width: 1200px;
+    margin: 0 auto;
+}
+#m_div2 {
+    height: 922px;
+    width: 1200px;
+    margin-top: 45px;
+    overflow: hidden;
+    #m_left {
+        height: 705px;
+        width: 255px;
+        float: left;
+        overflow: hidden;
+        #m_top {
+            height: 225px;
+            width: 253px;
+            position: relative;
+            overflow: hidden;
+            background: white;
+            border: 1px solid gainsboro;
+            #omg {
+                position: absolute;
+                left: 20px;
+                top: 10px;
+                float: left;
+            }
+            #sp1 {
+                position: absolute;
+                left: 130px;
+                top: 15px;
+                font-family: "microsoft yahei";
+            }
+            #amg {
+                position: absolute;
+                left: 155px;
+                top: 63px;
+            }
+            #smg {
+                position: absolute;
+                left: 25px;
+                top: 115px;
+            }
+            #sp2 {
+                height: 16px;
+                width: 48px;
+                overflow: hidden;
+                position: absolute;
+                top: 115px;
+                left: 45px;
+                font-size: 12px;
+            }
+            #p1 {
+                height: 21px;
+                width: 158px;
+                overflow: hidden;
+                position: absolute;
+                top: 155px;
+                left: 20px;
+                font-size: 16px;
+                font-family: "Microsoft YaHei";
+                b {
+                    color: #DC0000;
+                }
+            }
+            #p2 {
+                height: 21px;
+                width: 158px;
+                overflow: hidden;
+                position: absolute;
+                top: 185px;
+                left: 20px;
+                font-size: 16px;
+                font-family: "Microsoft YaHei";
+                b {
+                    color: #DC0000;
+                }
+            }
+        }
+        #m_bottom {
+            height: 466px;
+            width: 253px;
+            margin-top: 10px;
+            overflow: hidden;
+            border: 1px solid gainsboro;
+            background: white;
+            ul {
+                height: 460px;
+                width: 225px;
+                margin: 0 auto;
+                overflow: hidden;
+                li {
+                    height: 58px;
+                    width: 225px;
+                    overflow: hidden;
+                    border-bottom: 1px dashed gainsboro;
+                    img {
+                        margin-top: 20px;
+                        margin-left: 10px;
+                        float: left;
+                    }
+                    span {
+                        height: 21px;
+                        width: 64px;
+                        overflow: hidden;
+                        line-height: 58px;
+                        font-size: 16px;
+                        margin-left: 20px;
+                    }
+                }
+            }
+        }
+    }
+    #op{
+        float: left;
+        margin-top: 5px;
+        margin-left: 25px;
+        font-size: 20px;
+        font-family: "Microsoft YaHei";
+        color: rgb( 72, 72, 72 );
+    }
+    #m_right {
+        height: 870px;
+        width: 922px;
+        margin-left: 275px;
+        overflow: hidden;
+        background: white;
+        border: 1px solid gainsboro;
+        margin-top: 50px;
+        position: relative;
+        .m_qb {
+            height: 45px;
+            width: 920px;
+            border-bottom: 1px solid gainsboro;
+            background: white;
+            overflow: hidden;
+            li {
+                height: 45px;
+                width: 160px;
+                float: left;
+                font-size: 16px;
+                font-family: "Microsoft YaHei";
+                text-align: center;
+                line-height: 45px;
+                a{
+                    text-decoration: none;
+                    color: black;
+                }
+            }
+            li:hover {
+                border-top: 2px solid #4683fd;
+                color: #4683FD;
+            }
+        }
+        #m_tj{
+            height: 290px;
+            width: 920px;
+            border-bottom: 1px solid gainsboro;
+            span{
+                float: left;
+                margin-top: 30px;
+                margin-left: 25px;
+                font-size: 18px;
+                font-family: "Microsoft YaHei";
+                color: rgb( 72, 72, 72 );
+            }
+            p{
+                float: left;
+                margin-left: 25px;
+                margin-top: 10px;
+                font-size: 14px;
+            }
+            #m_xzyh{
+                font-size: 14px;
+                float: left;
+                margin-left: 25px;
+            }
+            .m_gs{
+                height: 120px;
+                width: 685px;
+                position: absolute;
+                left: 150px;
+                top: 160px;
+                ul{
+                    height: 33px;
+                    width: 685px;
+                    li{
+                        height: 33px;
+                        width: 145px;
+                        float: left;
+                        img{
+                            margin-left: 10px;
+                        }
+                        input{
+                            float: left;
+                            margin-top: 7px;
+                        }
+                    }
+                    .m_oli{
+                        margin-left: 25px;
+                    }
+                }
+                .m_oul{
+                    margin-top: 10px;
+                }
+            }
+        }
+        #m_bd{
+            height: 575px;
+            width: 920px;
+            position: relative;
+            .m_kh{
+                height: 42px;
+                width: 620px;
+                position: absolute;
+                left: 28px;
+                top: 37px;
+                span{
+                    font-size: 16px;
+                    font-family: "Microsoft YaHei";
+                    color: rgb( 72, 72, 72 );
+                }
+                input{
+                    height: 40px;
+                    width: 320px;
+                    margin-left: 10px;
+                    padding-left: 10px;
+                }
+                .tx{
+                    margin-left: 10px;
+                }
+            }
+            .m_ckr{
+                height: 42px;
+                width: 620px;
+                position: absolute;
+                left: 28px;
+                top: 107px;
+                span{
+                    font-size: 16px;
+                    font-family: "Microsoft YaHei";
+                    color: rgb( 72, 72, 72 );
+                    line-height: 42px;
+                }
+                input{
+                    height: 40px;
+                    width: 320px;
+                    margin-left: 10px;
+                    padding-left: 10px;
+                }
+            }
+            .m_sfz{
+                height: 42px;
+                width: 620px;
+                position: absolute;
+                left: 28px;
+                top: 177px;
+                span{
+                    font-size: 16px;
+                    font-family: "Microsoft YaHei";
+                    color: rgb( 72, 72, 72 );
+                }
+                input{
+                    height: 40px;
+                    width: 320px;
+                    margin-left: 10px;
+                    padding-left: 10px;
+                }
+                .tx{
+                    margin-left: 10px;
+                }
+            }
+            .m_sj{
+                height: 42px;
+                width: 620px;
+                position: absolute;
+                left: 28px;
+                top: 247px;
+                span{
+                    font-size: 16px;
+                    font-family: "Microsoft YaHei";
+                    color: rgb( 72, 72, 72 );
+                }
+                input{
+                    height: 40px;
+                    width: 175px;
+                    margin-left: 15px;
+                    padding-left: 10px;
+                }
+                button{
+                    height: 40px;
+                    width: 125px;
+                    margin-left: 10px;
+                }
+                .tx{
+                    margin-left: 10px;
+                }
+            }
+            .m_yzm{
+                height: 42px;
+                width: 620px;
+                position: absolute;
+                left: 28px;
+                top: 317px;
+                span{
+                    font-size: 16px;
+                    font-family: "Microsoft YaHei";
+                    color: rgb( 72, 72, 72 );
+                }
+                input{
+                    height: 40px;
+                    width: 320px;
+                    margin-left: 10px;
+                    padding-left: 10px;
+                }
+            }
+            #m_blue{
+                height: 40px;
+                width: 330px;
+                overflow: hidden;
+                background: #4683fd;
+                position: absolute;
+                left: 125px;
+                top: 400px;
+                border: none;
+                font-size: 18px;
+                font-family: "Microsoft YaHei";
+                color: rgb( 255, 255, 255 );
+            }
+            .m_ty{
+                height: 20px;
+                width: 250px;
+                overflow: hidden;
+                position: absolute;
+                left: 125px;
+                top: 450px;
+                
+                span{
+                    font-size: 14px;
+                      font-family: "Microsoft YaHei";
+                      color: rgb( 102, 102, 102 );
+                }
+            }
+        }
+    }
+    
+}
+
