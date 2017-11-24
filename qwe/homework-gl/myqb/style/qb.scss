@@ -1,0 +1,336 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+body {
+    background: #f9f9f9;
+}
+
+#middle-gll {
+    height: 820px;
+    width: 1200px;
+    margin: 0 auto;
+}
+#middle-gll {
+    height: 820px;
+    width: 1200px;
+    margin: 0 auto;
+}
+#m_div_img {
+    height: 70px;
+    width: 630px;
+    margin-left: 285px;
+    overflow: hidden;
+    #m_div01 {
+        height: 40px;
+        width: 310px;
+        margin-top: 15px;
+        overflow: hidden;
+        img {
+            height: 40px;
+            width: 40px;
+            float: left;
+        }
+        span {
+            float: left;
+            margin-left: 23px;
+            font-size: 30px;
+            float: left;
+        }
+    }
+    #m_div02 {
+        height: 70px;
+        width: 320px;
+        float: right;
+        margin-top: -55px;
+        overflow: hidden;
+        div {
+            float: left;
+            height: 70px;
+            width: 50px;
+            background: #dc0000;
+            font-size: 40px;
+            text-align: center;
+            line-height: 70px;
+            color: white;
+        }
+        .m_div04 {
+            margin-left: 10px;
+        }
+        .m_div05 {
+            height: 10px;
+            width: 10px;
+            margin-left: 15px;
+            margin-top: 55px;
+            border-radius: 50%;
+            overflow: hidden;
+        }
+    }
+}
+#m_div2 {
+    height: 705px;
+    width: 1200px;
+    margin-top: 45px;
+    overflow: hidden;
+    #m_left {
+        height: 705px;
+        width: 255px;
+        float: left;
+        overflow: hidden;
+        #m_top {
+            height: 225px;
+            width: 253px;
+            position: relative;
+            overflow: hidden;
+            background: white;
+            border: 1px solid gainsboro;
+            #omg {
+                position: absolute;
+                left: 20px;
+                top: 10px;
+                float: left;
+            }
+            #sp1 {
+                position: absolute;
+                left: 130px;
+                top: 15px;
+                font-family: "microsoft yahei";
+            }
+            #amg {
+                position: absolute;
+                left: 155px;
+                top: 63px;
+            }
+            #smg {
+                position: absolute;
+                left: 25px;
+                top: 115px;
+            }
+            #sp2 {
+                height: 16px;
+                width: 48px;
+                overflow: hidden;
+                position: absolute;
+                top: 115px;
+                left: 45px;
+                font-size: 12px;
+            }
+            #p1 {
+                height: 21px;
+                width: 158px;
+                overflow: hidden;
+                position: absolute;
+                top: 155px;
+                left: 20px;
+                font-size: 16px;
+                font-family: "Microsoft YaHei";
+                b {
+                    color: #DC0000;
+                }
+            }
+            #p2 {
+                height: 21px;
+                width: 158px;
+                overflow: hidden;
+                position: absolute;
+                top: 185px;
+                left: 20px;
+                font-size: 16px;
+                font-family: "Microsoft YaHei";
+                b {
+                    color: #DC0000;
+                }
+            }
+        }
+        #m_bottom {
+            height: 466px;
+            width: 253px;
+            margin-top: 10px;
+            overflow: hidden;
+            border: 1px solid gainsboro;
+            background: white;
+            ul {
+                height: 460px;
+                width: 225px;
+                margin: 0 auto;
+                overflow: hidden;
+                li {
+                    height: 58px;
+                    width: 225px;
+                    overflow: hidden;
+                    border-bottom: 1px dashed gainsboro;
+                    img {
+                        margin-top: 20px;
+                        margin-left: 10px;
+                        float: left;
+                    }
+                    span {
+                        height: 21px;
+                        width: 64px;
+                        overflow: hidden;
+                        line-height: 58px;
+                        font-size: 16px;
+                        margin-left: 20px;
+                    }
+                }
+            }
+        }
+    }
+    #m_right {
+        height: 705px;
+        width: 922px;
+        margin-left: 275px;
+        overflow: hidden;
+        .m_qb {
+            height: 45px;
+            width: 920px;
+            border: 1px solid gainsboro;
+            background: white;
+            overflow: hidden;
+            a{
+                color: black;
+            }
+            li {
+                height: 45px;
+                width: 160px;
+                float: left;
+                font-size: 16px;
+                font-family: "Microsoft YaHei";
+                text-align: center;
+                line-height: 45px;
+            }
+            li:hover {
+                border-top: 2px solid #4683fd;
+                color: #4683FD;
+            }
+        }
+        #m_mon {
+            height: 165px;
+            width: 920px;
+            border: 1px solid gainsboro;
+            border-top: none;
+            position: relative;
+            background: #FFFFFF;
+            overflow: hidden;
+            #m_blue {
+                height: 22px;
+                width: 4px;
+                background: #4683FD;
+                float: left;
+                position: absolute;
+                left: 357px;
+                top: 35px;
+                overflow: hidden;
+            }
+            span {
+                position: absolute;
+                left: 377px;
+                top: 35px;
+                font-size: 18px;
+                font-family: "Microsoft YaHei";
+                overflow: hidden;
+            }
+            b {
+                position: absolute;
+                left: 377px;
+                top: 88px;
+                font-size: 32px;
+                font-family: "Microsoft YaHei";
+                color: red;
+            }
+            #btn1 {
+                height: 32px;
+                width: 86px;
+                background: white;
+                border: 1px solid gainsboro;
+                position: absolute;
+                left: 775px;
+                top: 40px;
+            }
+            #btn2 {
+                height: 32px;
+                width: 86px;
+                background: white;
+                border: 1px solid gainsboro;
+                position: absolute;
+                left: 775px;
+                top: 95px;
+            }
+        }
+        p {
+            float: left;
+            margin-top: 23px;
+            margin-left: 2px;
+            font-size: 16px;
+            font-family: "Microsoft YaHei";
+            overflow: hidden;
+        }
+        #m_zhmx {
+            height: 375px;
+            width: 920px;
+            border: 1px solid gainsboro;
+            margin-top: 65px;
+            background: white;
+            overflow: hidden;
+            div {
+                height: 60px;
+                width: 920px;
+                border-bottom: 1px solid gainsboro;
+                overflow: hidden;
+            }
+            .m_jycz {
+                height: 45px;
+                width: 920px;
+                overflow: hidden;
+                ul {
+                    height: 45px;
+                    width: 920px;
+                    overflow: hidden;
+                    .m_monument {
+                        width: 306px;
+                        height: 45px;
+                        float: left;
+                        text-align: center;
+                        line-height: 45px;
+                    }
+                }
+            }
+            .m_last {
+                height: 60px;
+                width: 920px;
+                overflow: hidden;
+                ul {
+                    height: 60px;
+                    width: 920px;
+                    .m_monument {
+                        width: 306px;
+                        height: 60px;
+                        float: left;
+                        text-align: center;
+                        line-height: 60px;
+                    }
+                }
+            }
+            .m_tactfu {
+                height: 20px;
+                width: 60px;
+                margin-left: 490px;
+                border-bottom: none;
+                overflow: hidden;
+                div {
+                    height: 5px;
+                    width: 5px;
+                    border-radius: 50%;
+                    background: #cbcbcb;
+                    float: left;
+                    margin-left: 5px;
+                    margin-top: 8px;
+                }
+            }
+        }
+    }
+}
+
