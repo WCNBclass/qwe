@@ -1,0 +1,321 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  box-sizing: border-box; }
+
+body {
+  background: #f9f9f9; }
+
+#middle-ysj {
+  height: 820px;
+  width: 1200px;
+  margin: 0 auto; }
+
+#m_div_img {
+  height: 70px;
+  width: 630px;
+  margin-left: 285px;
+  overflow: hidden; }
+  #m_div_img #m_div01 {
+    height: 40px;
+    width: 310px;
+    margin-top: 15px;
+    overflow: hidden; }
+    #m_div_img #m_div01 img {
+      height: 40px;
+      width: 40px;
+      float: left; }
+    #m_div_img #m_div01 span {
+      float: left;
+      margin-left: 23px;
+      font-size: 30px;
+      float: left; }
+  #m_div_img #m_div02 {
+    height: 70px;
+    width: 320px;
+    float: right;
+    margin-top: -55px;
+    overflow: hidden; }
+    #m_div_img #m_div02 div {
+      float: left;
+      height: 70px;
+      width: 50px;
+      background: #dc0000;
+      font-size: 40px;
+      text-align: center;
+      line-height: 70px;
+      color: white; }
+    #m_div_img #m_div02 .m_div04 {
+      margin-left: 10px; }
+    #m_div_img #m_div02 .m_div05 {
+      height: 10px;
+      width: 10px;
+      margin-left: 15px;
+      margin-top: 55px;
+      border-radius: 50%;
+      overflow: hidden; }
+
+#m_div2 {
+  height: 1136px;
+  width: 1200px;
+  margin-top: 45px;
+  overflow: hidden; }
+  #m_div2 #m_left {
+    height: 705px;
+    width: 255px;
+    float: left;
+    overflow: hidden; }
+    #m_div2 #m_left #m_top {
+      height: 225px;
+      width: 253px;
+      position: relative;
+      overflow: hidden;
+      background: white;
+      border: 1px solid gainsboro; }
+      #m_div2 #m_left #m_top #omg {
+        position: absolute;
+        left: 20px;
+        top: 10px;
+        float: left; }
+      #m_div2 #m_left #m_top #sp1 {
+        position: absolute;
+        left: 130px;
+        top: 15px;
+        font-family: "microsoft yahei"; }
+      #m_div2 #m_left #m_top #amg {
+        position: absolute;
+        left: 155px;
+        top: 63px; }
+      #m_div2 #m_left #m_top #smg {
+        position: absolute;
+        left: 25px;
+        top: 115px; }
+      #m_div2 #m_left #m_top #sp2 {
+        height: 16px;
+        width: 48px;
+        overflow: hidden;
+        position: absolute;
+        top: 115px;
+        left: 45px;
+        font-size: 12px; }
+      #m_div2 #m_left #m_top #p1 {
+        height: 21px;
+        width: 158px;
+        overflow: hidden;
+        position: absolute;
+        top: 155px;
+        left: 20px;
+        font-size: 16px;
+        font-family: "Microsoft YaHei"; }
+        #m_div2 #m_left #m_top #p1 b {
+          color: #DC0000; }
+      #m_div2 #m_left #m_top #p2 {
+        height: 21px;
+        width: 158px;
+        overflow: hidden;
+        position: absolute;
+        top: 185px;
+        left: 20px;
+        font-size: 16px;
+        font-family: "Microsoft YaHei"; }
+        #m_div2 #m_left #m_top #p2 b {
+          color: #DC0000; }
+    #m_div2 #m_left #m_bottom {
+      height: 470px;
+      width: 253px;
+      margin-top: 10px;
+      overflow: hidden;
+      border: 1px solid gainsboro;
+      background: white; }
+      #m_div2 #m_left #m_bottom ul {
+        height: 470px;
+        width: 225px;
+        margin: 0 auto;
+        overflow: hidden; }
+        #m_div2 #m_left #m_bottom ul li {
+          height: 58px;
+          width: 225px;
+          overflow: hidden;
+          border-bottom: 1px dashed gainsboro; }
+          #m_div2 #m_left #m_bottom ul li img {
+            margin-top: 20px;
+            margin-left: 10px;
+            float: left; }
+          #m_div2 #m_left #m_bottom ul li span {
+            height: 21px;
+            width: 64px;
+            overflow: hidden;
+            line-height: 58px;
+            font-size: 16px;
+            margin-left: 20px; }
+  #m_div2 #m_right {
+    float: right;
+    width: 922px;
+    height: 704px; }
+    #m_div2 #m_right #right_p {
+      font-size: 20px;
+      font-family: "microsoft yahei"; }
+    #m_div2 #m_right #right_div_cont {
+      margin-top: 20px;
+      width: 922px;
+      height: 660px;
+      border: 1px solid #DCDCDC;
+      background: #fff; }
+      #m_div2 #m_right #right_div_cont ul {
+        width: 922px;
+        height: 44px;
+        border: 1px solid #DCDCDC; }
+        #m_div2 #m_right #right_div_cont ul li {
+          float: left;
+          width: 160px;
+          height: 44px;
+          text-align: center;
+          line-height: 44px;
+          cursor: pointer;
+          border-right: 1px solid #DCDCDC; }
+        #m_div2 #m_right #right_div_cont ul li:hover {
+          border: none;
+          border-top: 2px solid blue; }
+      #m_div2 #m_right #right_div_cont #ul_div {
+        width: 922px; }
+        #m_div2 #m_right #right_div_cont #ul_div .span_jiben {
+          padding-left: 30px;
+          padding-top: 46px;
+          width: 922px;
+          height: 500px;
+          display: flex; }
+          #m_div2 #m_right #right_div_cont #ul_div .span_jiben .j_left {
+            width: 82px;
+            height: 276px; }
+            #m_div2 #m_right #right_div_cont #ul_div .span_jiben .j_left li {
+              margin-top: 42px;
+              float: right; }
+          #m_div2 #m_right #right_div_cont #ul_div .span_jiben .j_middle {
+            width: 380px;
+            height: 371px;
+            margin-left: 20px; }
+            #m_div2 #m_right #right_div_cont #ul_div .span_jiben .j_middle li {
+              margin-top: 42px; }
+            #m_div2 #m_right #right_div_cont #ul_div .span_jiben .j_middle #j_middle_a {
+              color: #4683FD;
+              text-decoration: none; }
+            #m_div2 #m_right #right_div_cont #ul_div .span_jiben .j_middle .j_middle_btn {
+              margin-top: 42px;
+              font-size: 18px;
+              font-family: "microsoft yahei";
+              width: 256px;
+              height: 50px;
+              background: #4683fd;
+              color: #fff;
+              border: none;
+              outline: none;
+              cursor: pointer; }
+          #m_div2 #m_right #right_div_cont #ul_div .span_jiben .j_right {
+            margin-left: 150px;
+            width: 203px;
+            height: 274px; }
+            #m_div2 #m_right #right_div_cont #ul_div .span_jiben .j_right .right_p1 {
+              margin-top: 8px;
+              text-align: center;
+              font-size: 16px;
+              font-family: "microsoft yahei";
+              color: #4683fd; }
+            #m_div2 #m_right #right_div_cont #ul_div .span_jiben .j_right .right_p2 {
+              margin-top: 10px;
+              text-align: center;
+              font-size: 14px;
+              font-family: "microsoft yahei";
+              color: #a8a8a8; }
+  #m_div2 #right_div_cont_two {
+    display: none;
+    position: absolute;
+    top: 290px;
+    left: 353px;
+    float: right;
+    width: 922px;
+    height: 704px; }
+    #m_div2 #right_div_cont_two #right_p {
+      font-size: 20px;
+      font-family: "microsoft yahei"; }
+    #m_div2 #right_div_cont_two #two_div {
+      margin-top: 20px;
+      width: 922px;
+      height: 660px;
+      background: #fff;
+      border: 1px solid #DCDCDC; }
+      #m_div2 #right_div_cont_two #two_div .two_p {
+        margin-left: 180px;
+        margin-top: 48px;
+        font-size: 16px;
+        font-family: "microsoft yahei";
+        color: #484848; }
+      #m_div2 #right_div_cont_two #two_div .p2 {
+        margin-top: 60px;
+        margin-left: 238px; }
+      #m_div2 #right_div_cont_two #two_div .two_p2 {
+        font-size: 16px;
+        font-family: "microsoft yahei";
+        margin-left: 238px;
+        color: #484848; }
+        #m_div2 #right_div_cont_two #two_div .two_p2 .two_inp {
+          padding-left: 10px;
+          margin-top: 25px;
+          margin-left: 10px;
+          width: 330px;
+          height: 42px;
+          font-size: 16px;
+          border: 1px solid #dddddd;
+          outline: none; }
+      #m_div2 #right_div_cont_two #two_div #two_btn {
+        margin-left: 321px;
+        margin-top: 58px;
+        width: 330px;
+        height: 42px;
+        border: none;
+        border-radius: 5px;
+        background: #4683fd;
+        color: #fff;
+        cursor: pointer; }
+
+#two_div2 {
+  margin-top: 20px;
+  width: 922px;
+  height: 660px;
+  background: #fff; }
+  #two_div2 .two_p {
+    margin-left: 180px;
+    margin-top: 52px;
+    font-size: 16px;
+    font-family: "microsoft yahei";
+    color: #484848; }
+  #two_div2 #p2_p {
+    margin-left: 206px; }
+  #two_div2 #p_box {
+    margin-left: -24px; }
+  #two_div2 .two_p2 {
+    font-size: 16px;
+    font-family: "microsoft yahei";
+    margin-left: 238px;
+    color: #484848; }
+    #two_div2 .two_p2 .two_inp {
+      padding-left: 10px;
+      margin-top: 25px;
+      margin-left: 10px;
+      width: 330px;
+      height: 42px;
+      font-size: 16px;
+      border: 1px solid #dddddd;
+      outline: none; }
+  #two_div2 #two_btn2 {
+    margin-left: 324px;
+    margin-top: 58px;
+    width: 330px;
+    height: 42px;
+    border: none;
+    border-radius: 5px;
+    background: #4683fd;
+    color: #fff;
+    cursor: pointer; }
+
+/*# sourceMappingURL=style1.css.map */
